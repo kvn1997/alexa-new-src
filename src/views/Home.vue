@@ -1,12 +1,12 @@
 <template>
-  <div class="home">
-   
-    
-  
-  <div id="app">
-    <b-carousel :interval="4000" controls indicators>
 
+  <div class="home">    
+  <div>
+    <b-carousel :interval="4000" controls indicators>
+  
         <b-carousel-slide>
+            <Navbar/>
+
         <template v-slot:img>
           <img
             class="fluid max-width: 100%"
@@ -19,6 +19,8 @@
       </b-carousel-slide>
        
        <b-carousel-slide>
+             <Navbar/>
+
         <template v-slot:img>
           <img
             class="d-block fluid max-width: 100%"
@@ -31,10 +33,12 @@
       </b-carousel-slide>
       
       <b-carousel-slide>
+            <Navbar/>
+
         
         <template v-slot:img>
         <div class="carousel-caption d-none d-md-block">
-        <h5>Alex Nicastro</h5>
+       
         </div>
           <img 
            class="d-block fluid max-width: 100%"
@@ -47,6 +51,8 @@
       </b-carousel-slide>
       
       <b-carousel-slide>
+            <Navbar/>
+
         <template v-slot:img>
           <img
             class="d-block fluid max-width: 100%"
@@ -58,6 +64,8 @@
         </template>
       </b-carousel-slide>
        <b-carousel-slide>
+             <Navbar/>
+
         <template v-slot:img>
           <img
             class="d-block fluid max-width: 100%"
@@ -69,6 +77,8 @@
         </template>
       </b-carousel-slide>
        <b-carousel-slide>
+             <Navbar/>
+
         <template v-slot:img>
           <img
             class="d-block fluid max-width: 100%"
@@ -87,9 +97,16 @@
     
   </div>
 </template>
- <script>
+
+
+<script>
+ import Navbar from '@/components/Navbar.vue'
+
     export default {
       name: 'home',
-      
+      components: {
+        Navbar
+      }      
     }
   </script>
+
