@@ -5,21 +5,23 @@
     <b-carousel :interval="4000" controls indicators>
   
         <b-carousel-slide>
-            <Navbar/>
-
+            
         <template v-slot:img>
+          
           <img
             class="fluid max-width: 100%"
             width="1350"
             height="620"
             src="@/assets/imgs/19.jpg"
             
-          >
+          >    
+          
+
         </template>
       </b-carousel-slide>
        
        <b-carousel-slide>
-             <Navbar/>
+            
 
         <template v-slot:img>
           <img
@@ -33,7 +35,6 @@
       </b-carousel-slide>
       
       <b-carousel-slide>
-            <Navbar/>
 
         
         <template v-slot:img>
@@ -51,7 +52,6 @@
       </b-carousel-slide>
       
       <b-carousel-slide>
-            <Navbar/>
 
         <template v-slot:img>
           <img
@@ -64,7 +64,6 @@
         </template>
       </b-carousel-slide>
        <b-carousel-slide>
-             <Navbar/>
 
         <template v-slot:img>
           <img
@@ -77,7 +76,6 @@
         </template>
       </b-carousel-slide>
        <b-carousel-slide>
-             <Navbar/>
 
         <template v-slot:img>
           <img
@@ -99,14 +97,13 @@
 </template>
 
 
-<script>
- import Navbar from '@/components/Navbar.vue'
-
+ <script>
+  import Navbar from '@/App.vue'
     export default {
-      name: 'home',
-      components: {
-        Navbar
-      }      
-    }
-  </script>
+      name: 'App',
+       components: {
+         Navbar
+       }      
+     }
+   </script>
 
