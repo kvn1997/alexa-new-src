@@ -6,7 +6,7 @@
 <footer class="page-footer font-small blue pt-4">
 
   <!-- Footer Links -->
-  <div class="container-fluid text-center text-md-left">
+  <div class="container-fluid bg-info text-center text-md-left">
 
     <!-- Grid row -->
     <div class="row">
@@ -16,8 +16,12 @@
 
         <!-- Content -->
         <h5 class="text-uppercase">Footer Content</h5>
-        <p>Here you can use rows and columns to organize your footer content.</p>
+        <!-- <a class="btn btn-social-icon btn-twitter">
+    <span class="fa fa-twitter"></span>
+  </a> -->
 
+        <p style="light">LALLA</p>
+        
       </div>
       <!-- Grid column -->
 
@@ -27,22 +31,8 @@
       <div class="col-md-3 mb-md-0 mb-3">
 
         <!-- Links -->
-        <h5 class="text-uppercase">Links</h5>
 
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Link 1</a>
-          </li>
-          <li>
-            <a href="#!">Link 2</a>
-          </li>
-          <li>
-            <a href="#!">Link 3</a>
-          </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
-        </ul>
+      
 
       </div>
       <!-- Grid column -->
@@ -55,17 +45,16 @@
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!">Link 1</a>
+            <a href="#!">Home</a>
           </li>
           <li>
-            <a href="#!">Link 2</a>
+            <a href="#!">Galeria</a>
           </li>
           <li>
-            <a href="#!">Link 3</a>
+            <a href="#!">Reservas</a>
+            <p>DreamArt Photography Copyright ©</p>
           </li>
-          <li>
-            <a href="#!">Link 4</a>
-          </li>
+
         </ul>
 
       </div>
@@ -75,16 +64,17 @@
     <!-- Grid row -->
 
   </div>
+  
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© DreamArt Photography Copyright
-  </div>
+ 
   <!-- Copyright -->
 
 </footer>
 <!-- Footer -->
   </div>
+  
   
   
 </template>
