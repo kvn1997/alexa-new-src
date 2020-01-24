@@ -19,7 +19,7 @@
     
     <a href="#" class="btn btn-primary">Haz tu reserva!</a>
   </div>
-  </b-card>
+  </b-card>   
 </div>
 
   <div>
@@ -41,7 +41,6 @@
   </div>
   </b-card>
 </div>
-
   <div> 
     <b-card
    header="Parejas"
@@ -68,17 +67,19 @@
     <!-- <h4 class="card-title, font-italic">Comuniones</h4> -->
     <p class="text-justify">La comunion es un momento importante y
        inolvidable, inmortalize este momento unico con un hermoso book 
-       fotografico!</p> 
+       fotografico! </p> <br>
     <a href="#" class="btn btn-primary">Haz tu reserva!</a>
   </div>
   </b-card>
+
 </div>
+
  <div>
    <b-card header="Retratos"
    text-variant="center"
     header-text-variant="light"
     header-tag="header"
-    header-bg-variant="dark" class="card, fluid, m-5" style="width:400px">
+    header-bg-variant="dark" class="card, fluid, mr-5" style="width:400px">
   <img class="card-img-top" src="@/assets/imgs/2.jpg" alt="Card image">
   <div  class="card-body">
     <p class="text-justify">Eres un chico/a y quieres plasmar tu verdadera esencia a travez de una foto? Te gusta estar de frente al objectivo? Entonces no espere en contactar conmigo!</p>
@@ -86,8 +87,31 @@
   </div>
   </b-card>
 </div> 
+<div>
+    <b-card
+    
+   header="Niños"
+   text-variant="center"
+    header-text-variant="light"
+    header-tag="header"
+    header-bg-variant="dark"  class="card, fluid, mr-5" style="width:400px">
+  <img class="card-img-top" src="@/assets/imgs/3.jpg" alt="Card image">
+  <div class="card-body">
+    <!-- <h4 class="card-title, font-italic">Session De Familia</h4> -->
+    <p  class="text-justify"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente amet est sed, saepe possimus necessitatibus omnis?kdsfkmkemkerspiciatis. </p>
+    
+    <a href="#" class="btn btn-primary">Haz tu reserva!</a>
+  </div>
+  </b-card>   
+</div>
  </b-row>
- 
+
+ <br>
+  <br>
+   <br>
+ <br>
+ <br>
+    <hr align="center" noshade="noshade" size="4" width="100%" />
 
 </b-container>
 </template>

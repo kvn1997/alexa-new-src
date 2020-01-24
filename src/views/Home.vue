@@ -4,13 +4,13 @@
   <div>
     <b-carousel :interval="4000" controls indicators>
   
-        <b-carousel-slide>
+        <b-carousel-slide >
             
         <template v-slot:img>
           
           <img
             class="fluid max-width: 100%"
-            width="1350"
+            width="1450"
             height="620"
             src="@/assets/imgs/19.jpg"
             
