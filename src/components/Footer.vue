@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div >
         <footer class="d-flex">
 <section>
     <H1 class=" lalla text-center font-italic" >Follow me</H1>
@@ -21,7 +21,7 @@
 <h7 class="m-5">©2020 DreamArt Photography
 </h7>
 </section>
-<section id="foo" class="list-inline ml-5">
+<section class="list-inline ml-5">
 <h1 class="lalla font-italic">Explora</h1> 
         <b-nav-item class="" to="/">Home</b-nav-item>
         <b-nav-item to="/Galeria">Galeria</b-nav-item>

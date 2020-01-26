@@ -1,24 +1,20 @@
 <template>
     <div id="formulario">
         <!-- sección de la foto -->
-        <section class="section_foto">
-            <div class="div_foto">
+        <section class="section_foto d-flex">
+            <div class="div_foto mr-5">
                 <h2 class="nombre_contacto">Alexa Nicastro</h2>
-                <img caption="hola" class="foto" src="../assets/imgs/3.jpg" alt="foto de mi">
+                <img caption="hola" class="foto" src="../assets/imgs/alexa.jpg" alt="foto de mi">
             </div>
-        </section> 
-        
-    
-
-<!-- sección del formulario -->
-    <section class="section_formulario">
-        <form class="form" action="">
-            <h2>Consultas y Reservas</h2>
-            <br>
-            <p class="parrafo_contacto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur nulla saepe quasi dignissimos, reprehenderit soluta blanditiis ipsum. Reiciendis ipsum sint architecto ab maiores minima praesentium fugit ut, saepe a voluptate.</p>
-            <br>
+             <div class="section_formulario ml-5">
+         
+       
+            <h2 class="ml-5">Consultas y Reservas</h2>
             
-            <div class="user_info">
+            <p class="parrafo_contacto ml-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur nulla saepe quasi dignissimos, reprehenderit soluta blanditiis ipsum. Reiciendis ipsum sint architecto ab maiores minima praesentium fugit ut, saepe a voluptate.</p>
+        
+            
+             <div class="ml-5">
                 <label class="estilo_letra_labels" for="name">Nombre*</label>
                 <input type="text" id="nombre" size="65">
                 <br>
@@ -36,10 +32,22 @@
                 <textarea name="" class="textarea" cols="67" rows="3"></textarea>
                 <br>
                 <input type="button" value="Enviar" class="btnEnviar">
-            </div>
-        </form>
-    </section> 
+            </div> 
+      
+    </div> 
+        </section> 
+        
+    <br>
+     <br>
+      <br>
+       <br>
+        <br>
+
+<!-- sección del formulario -->
+        <hr align="center" noshade="noshade" size="4" width="100%" />
+
     </div>    
+
 </template>
 
 
@@ -104,7 +112,7 @@ body {
 
 .parrafo_contacto {
     font-family: 'Bad Script', cursive;
-    max-width: 500px;
+    width: 30rem;
 }
 
 .todo {
@@ -115,10 +123,7 @@ body {
 
 /* foto */
 
-.section_foto {
-    float: left;
-    width: 30%;
-}
+
 
 .div_foto {
     max-width: 400px;
@@ -137,12 +142,18 @@ body {
     }
 }
 
+.section_foto {
+    width: 10px;
+}
+.section_foto {
+    width: 10px;
+}
 .foto {
     background-image: url(../assets/imgs/2.jpg);
     max-width: 400px;
     max-height: 700px;
     border-radius: 1rem;
-}
+} 
 
 @media (max-width: 380px) {
     .foto {
@@ -158,9 +169,8 @@ body {
 
 .section_formulario {
     float: right;
-    max-width: 500px;
-    margin-top: 3rem;
-    margin-right: 8rem;
+    width: 300px;
+    
 }
 
 @media (max-width: 380px) {
