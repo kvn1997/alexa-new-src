@@ -105,8 +105,8 @@
         </template>
         <div id="description">
          <div id="div_des"> <!-- <h1 id="h1-des" class="lalla text-center font-italic">PRESTACION</h1> -->
-          <P class="p-des1">aminima provamet consectetur adipisicing elit. Minus tempore aut maxime corrupti quam quia, ut ipsa, velit illo soluta rem aperiam autem quas assumenda temporibus! Obcaecati quod praesentium beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perspiciatis neque dignissimos voluptatum ex amet sint at eum cum officiis. Consequatur necessitatibus recusandae molestiae mollitia, unde laudantium deserunt culpa enim.</P>
-          <p class="p-des2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam inventore ducimus non impedit suscipit quos sequi natus ut, quisquam, praesentium, aperiam alias iusto eos fugit maxime labore beatae doloribus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus laudantium itaque, porro doloremque cupiditate repellat! Officiis similique, eum totam vero natus delectus, laborum velit, odio earum dolor illo amet minima.</p>
+          <P class="p-des1">La fotografia es un medio de expresion muy fuerte: Una imagen que junta a la vez recuerdos, conversaciones, historias, publicidad...Por eso, el campo fotografigo se esta explorando y desarrolado continuamente. Y los que trabajan en este campo tienen que perfeccionarse para garantizar un servicio profesional. Asimismo, el equipo DreamArt Photo presente en la estructura hostelera colaboradora, garantiza un servicio exelente, su actividad esta siento ya altamente valorada por los turistas, esto les consideran parte del personal del hotel, lo que pondra en valor su compañia</P>
+          <p class="p-des2"></p>
      </div>
         </div>
           <br>
@@ -335,6 +335,21 @@ margin-left: 28rem;    }
 #div_des {
  margin-left: 8rem;
     margin-right: 22rem;  }
+           }
+     @media (min-width: 1350px){
+.carousel-media {
+  min-width:1450px;
+  min-height:630px;
+}
+#flex-des{
+margin-left: 28rem;    }
+     
+#img-des{
+  margin-left:36rem;
+}
+#div_des {
+ margin-left: 14rem;
+    margin-right: 16rem;  }
      } 
            @media (min-width: 1650px){
 .carousel-media {

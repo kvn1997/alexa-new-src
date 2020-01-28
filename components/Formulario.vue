@@ -7,8 +7,6 @@
                 <img caption="hola" class="foto" src="../assets/imgs/alexa.jpg" alt="foto de mi">
             </div>
              <div class="section_formulario ml-5">
-         
-       
             <h2 class="ml-5">Consultas y Reservas</h2>
             
             <p class="parrafo_contacto ml-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur nulla saepe quasi dignissimos, reprehenderit soluta blanditiis ipsum. Reiciendis ipsum sint architecto ab maiores minima praesentium fugit ut, saepe a voluptate.</p>
